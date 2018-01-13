@@ -3,7 +3,7 @@ Project Summary for /home/ml888/sentaurus_home/XNOR
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Project Details :
 		current status		: running
-		was last modified	: 01/13/2018 16:09:57
+		was last modified	: 01/13/2018 18:22:26
 		was modified by		: ml888
 		was run on host		: en-ec-xing-01.coecis.cornell.edu
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -18,8 +18,7 @@ Total Number of Nodes			: 6
  
 Nodes by status				: 
 		none			: 3
-		failed			: 1
-		done			: 1
+		done			: 2
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -32,12 +31,12 @@ Hosts and Execution Information
  
 Host "en-ec-xing-01.coecis.cornell.edu" 
 		Number of nodes		: 2
-		Host Time		: 3 sec
+		Host Time		: 120 sec
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-		Total RunTime		: 3 sec
+		Total RunTime		: 120 sec
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Project Summary generated on		: 01/13/2018 16:10:02
+Project Summary generated on		: 01/13/2018 18:24:27
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

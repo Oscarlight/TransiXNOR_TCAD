@@ -2,7 +2,7 @@
 # Sentaurus Visual K-2015.06-SP2.
 # Tcl log file.
 #------------------------------------------
-# Date: Jan 13, 2018. 15:42:12.
+# Date: Jan 13, 2018. 18:24:34.
 # Version: 24.0.12 (1.12)
 # Mode: Interactive (GUI).
 # Hostname: en-ec-xing-01.coecis.cornell.edu.
@@ -10,45 +10,11 @@
 # Kernel: 3.10.0-514.26.2.el7.x86_64.
 ###########################################
 
-load_file /home/ml888/sentaurus_home/XNOR/n1_bnd.tdr
-create_plot -dataset n1_bnd
-select_plots Plot_n1_bnd
-#-> Plot_n1_bnd
-#-> Plot_n1_bnd
-#-> n1_bnd
-zoom_plot -plot Plot_n1_bnd -factor 1.1
-zoom_plot -plot Plot_n1_bnd -factor 1.1
-zoom_plot -plot Plot_n1_bnd -factor 1.21
-zoom_plot -plot Plot_n1_bnd -factor 1.1
-zoom_plot -plot Plot_n1_bnd -factor 1.4641
-zoom_plot -plot Plot_n1_bnd -factor 1.1
-zoom_plot -plot Plot_n1_bnd -factor 1.331
-zoom_plot -plot Plot_n1_bnd -factor 1.1
-zoom_plot -plot Plot_n1_bnd -factor 1.1
-zoom_plot -plot Plot_n1_bnd -factor 1.331
-zoom_plot -plot Plot_n1_bnd -factor 1.1
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 0.620921
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 0.620921
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 1.1
-zoom_plot -plot Plot_n1_bnd -factor 1.61051
-zoom_plot -plot Plot_n1_bnd -factor 1.1
-zoom_plot -plot Plot_n1_bnd -factor 1.4641
-zoom_plot -plot Plot_n1_bnd -factor 1.1
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 0.683013
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 0.683013
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 0.909091
-zoom_plot -plot Plot_n1_bnd -factor 1.1
-exit 0
+load_file /home/ml888/sentaurus_home/XNOR/IV_Vds_0.4_Vbg_0.4_n3_des.plt
+create_plot -1d
+select_plots Plot_1
+#-> Plot_1
+#-> Plot_1
+#-> IV_Vds_0.4_Vbg_0.4_n3_des
+create_curve -plot Plot_1 -dataset IV_Vds_0.4_Vbg_0.4_n3_des -axisX {topGate OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_1

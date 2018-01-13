@@ -1,9 +1,7 @@
-Material = "GaAs" {
-#include "GaAs.par"
-}
+#define ParFileDir .
 
-Material = "AlGaAs" {
-#include "AlGaAs.par"
+Material="InGaAs" {
+  #includeext "ParFileDir/sdevice_InGaAs.par"
 }
 
 Material = "InGaAs" {

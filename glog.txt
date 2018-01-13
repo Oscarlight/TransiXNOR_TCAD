@@ -14,8 +14,8 @@
 
 gsub is running on host 'en-ec-xing-01.coecis.cornell.edu' by user 'ml888'
 Binary 'gsub'
-Command line options '-verbose -swb_pid 31963 -q local:default -e 3 /home/ml888/sentaurus_home/XNOR'
-Current directory '/home/ml888/sentaurus_home'
+Command line options '-verbose -swb_pid 32407 -q local:default -e 3 /home/ml888/sentaurus_home/XNOR'
+Current directory '/home/ml888/sentaurus_home/XNOR'
 Some relevant environment variables:
 	STROOT=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/..
 	STRELEASE=current
@@ -28,7 +28,7 @@ Starting swblm daemon...OK
 Project '/home/ml888/sentaurus_home/XNOR'
 Loading global tool database '/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../tcad/current/lib/glib2/tooldb.tcl'
 Loading project tool database '/home/ml888/sentaurus_home/XNOR/gtooldb.tcl'
-16:09:57 Jan 13 2018 <XNOR> submitted to the batch system
+18:22:26 Jan 13 2018 <XNOR> submitted to the batch system
 Loading global queue configuration file '/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../queues/gqueues.dat'...ok
 Loading project tree '/home/ml888/sentaurus_home/XNOR/gtree.dat'
 >>>>> Preprocessing the project to run in normal mode
@@ -76,14 +76,15 @@ local% initialize 'local' scheduler data
 >>>>>>>>>> os_rm /home/ml888/sentaurus_home/XNOR/n3_des.job
 local% submit job 3 for local execution
 >>>>>>>>>> job '3' status changed from 'ready' to 'pending'
-local% exec "/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../bin/gjob -verbose -nice 19  -job 3 -swb_pid 31963 -gsub_pid 32254 -gsub_host en-ec-xing-01.coecis.cornell.edu -gsub_port 42739 "/home/ml888/sentaurus_home/XNOR""
+local% exec "/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../bin/gjob -verbose -nice 19  -job 3 -swb_pid 32407 -gsub_pid 372 -gsub_host en-ec-xing-01.coecis.cornell.edu -gsub_port 38023 "/home/ml888/sentaurus_home/XNOR""
 >>>>>>>>>> job '3' status changed from 'pending' to 'running'
-16:09:57 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
->>>>>>>>>> job '3' status changed from 'running' to 'failed'
-16:10:00 Jan 13 2018 --- job 3 <sdevice> exited abnormally: exit()
+18:22:26 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+>>>>>>>>>> job '3' status changed from 'running' to 'done'
+18:24:25 Jan 13 2018 +++ job 3 <sdevice> done: exit(0)
 
 SCHEDULING REPORT
---- failed  : 3
++++ done    : 3
 
-16:10:02 Jan 13 2018 <XNOR> failed
->>>>>> Writing to status file 5
+18:24:27 Jan 13 2018 <XNOR> done (121 sec)
+>>>>>> Writing to status file 121
+gsub exits with status 0

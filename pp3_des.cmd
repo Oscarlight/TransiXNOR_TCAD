@@ -1,8 +1,8 @@
 Electrode{
    { Name="source"      Voltage=  0.0  }
    { Name="drain"       Voltage=  0.0  }
-   { Name="topGate"       Voltage=  0.2  Schottky Barrier = 0.02 } ### prevent skip Vtg = 0
-   { Name="bottomGate"    Voltage=  0.2  Schottky Barrier = 0.02 }
+   { Name="topGate"       Voltage=  0.0  Schottky Barrier = 0.02 }
+   { Name="bottomGate"    Voltage=  0.0  Schottky Barrier = 0.02 }
 }
 
 File{
@@ -49,9 +49,8 @@ Plot{
 
 Math{
    Extrapolate
-   Nonlocal "NLM" (Electrode="source" Length=25e-7) # up to 25 nm
-   Digits= 5
-   Notdamped= 50
+   Digits= 4
+   Notdamped= 100
    Iterations= 15
    RelErrControl
    ErrRef(Electron) = 1e7
@@ -74,12 +73,52 @@ Quasistationary( InitialStep= 5e-2 Increment= 1.25
  Minstep= 1e-5 MaxStep= 0.30 
  Goal{ Name="bottomGate" Voltage = 0.0 }) 
  { Coupled{ Poisson Electron Hole } }
-NewCurrentFile="IV_Vds_0.0_Vbg_0.0_"
+NewCurrentFile="IV_Vds_0.4_Vbg_0.0_"
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 
  Minstep= 1e-5 MaxStep= 0.015
  Goal{ Name="topGate"  Voltage= 0.4 }) 
  { Coupled{ Poisson Electron Hole } }
+Quasistationary( InitialStep= 5e-2 Increment= 1.25 
+ Minstep= 1e-5 MaxStep= 0.40 
+ Goal{ Name="topGate" Voltage = 0.0 }) 
+ { Coupled{ Poisson Electron Hole } }
+
+
+Quasistationary( InitialStep= 5e-2 Increment= 1.25 
+ Minstep= 1e-5 MaxStep= 0.30 
+ Goal{ Name="drain" Voltage = 0.4 }) 
+ { Coupled{ Poisson Electron Hole } }
+Quasistationary( InitialStep= 5e-2 Increment= 1.25 
+ Minstep= 1e-5 MaxStep= 0.30 
+ Goal{ Name="bottomGate" Voltage = 0.4 }) 
+ { Coupled{ Poisson Electron Hole } }
+NewCurrentFile="IV_Vds_0.4_Vbg_0.4_"
+Quasistationary( InitialStep= 5e-2 Increment= 1.25 
+ Minstep= 1e-5 MaxStep= 0.015
+ Goal{ Name="topGate"  Voltage= 0.4 }) 
+ { Coupled{ Poisson Electron Hole } }
+Quasistationary( InitialStep= 5e-2 Increment= 1.25 
+ Minstep= 1e-5 MaxStep= 0.40 
+ Goal{ Name="topGate" Voltage = 0.0 }) 
+ { Coupled{ Poisson Electron Hole } }
+
+Quasistationary( InitialStep= 5e-2 Increment= 1.25 
+ Minstep= 1e-5 MaxStep= 0.30 
+ Goal{ Name="drain" Voltage = 0.4 }) 
+ { Coupled{ Poisson Electron Hole } }
+Quasistationary( InitialStep= 5e-2 Increment= 1.25 
+ Minstep= 1e-5 MaxStep= 0.30 
+ Goal{ Name="bottomGate" Voltage = 0.2 }) 
+ { Coupled{ Poisson Electron Hole } }
+NewCurrentFile="IV_Vds_0.4_Vbg_0.2_"
+Quasistationary( InitialStep= 5e-2 Increment= 1.25 
+ Minstep= 1e-5 MaxStep= 0.015
+ Goal{ Name="topGate"  Voltage= 0.4 }) 
+ { Coupled{ Poisson Electron Hole } }
+Quasistationary( InitialStep= 5e-2 Increment= 1.25 
+ Minstep= 1e-5 MaxStep= 0.40 
+ Goal{ Name="topGate" Voltage = 0.0 }) 
+ { Coupled{ Poisson Electron Hole } }
 
 }
-
 

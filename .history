@@ -726,3 +726,27 @@
 16:09:57 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
 16:10:00 Jan 13 2018 --- job 3 <sdevice> exited abnormally: exit()
 16:10:02 Jan 13 2018 <XNOR> failed
+16:40:13 Jan 13 2018 <XNOR> submitted to the batch system
+16:40:13 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+16:40:59 Jan 13 2018 +++ job 3 <sdevice> done: exit(0)
+16:41:02 Jan 13 2018 <XNOR> done (49 sec)
+16:52:25 Jan 13 2018 <XNOR> submitted to the batch system
+16:52:25 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+16:53:03 Jan 13 2018 +++ job 3 <sdevice> done: exit(0)
+16:53:06 Jan 13 2018 <XNOR> done (41 sec)
+17:20:10 Jan 13 2018 <XNOR> submitted to the batch system
+17:20:11 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+17:20:13 Jan 13 2018 --- job 3 <sdevice> exited abnormally: exit()
+17:20:15 Jan 13 2018 <XNOR> failed
+18:09:12 Jan 13 2018 <XNOR> submitted to the batch system
+18:09:13 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:11:06 Jan 13 2018 +++ job 3 <sdevice> done: exit(0)
+18:11:08 Jan 13 2018 <XNOR> done (116 sec)
+18:20:33 Jan 13 2018 <XNOR> submitted to the batch system
+18:20:33 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:20:35 Jan 13 2018 --- job 3 <sdevice> exited abnormally: exit()
+18:20:37 Jan 13 2018 <XNOR> failed
+18:22:26 Jan 13 2018 <XNOR> submitted to the batch system
+18:22:26 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:24:25 Jan 13 2018 +++ job 3 <sdevice> done: exit(0)
+18:24:27 Jan 13 2018 <XNOR> done (121 sec)
