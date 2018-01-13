@@ -10,6 +10,11 @@ Band2BandTunneling
   A = 1.0e26
   B = 1.0
 
+  Apath1	= 4.0000e+14	# [1/cm^3/sec]
+  Bpath1	= 1.0000e+07	# [V/cm]
+  Dpath1	= 0.0000e+00	# [eV]
+  Ppath1	= 0.037	# [eV]
+  Rpath1	= 0.0000e+00	# [1]
 
 }
 
