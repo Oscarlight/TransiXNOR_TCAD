@@ -5,17 +5,13 @@ BarrierTunneling {
 
 Band2BandTunneling
 {
-  * E1: Simple model 1 (P = 1)
-  * G = A * F^P * exp(- B / F)
-  A = 1.0e26
-  B = 1.0
-
-  Apath1	= 4.0000e+14	# [1/cm^3/sec]
-  Bpath1	= 1.0000e+07	# [V/cm]
+  *Apath1	= 4.0000e+14	# [1/cm^3/sec]
+  *Bpath1	= 1.0000e+07	# [V/cm]
   Dpath1	= 0.0000e+00	# [eV]
-  Ppath1	= 0.037	# [eV]
-  Rpath1	= 0.0000e+00	# [1]
-
+  Ppath1	= 0	# [eV] Direct Tunneling when = 0
+  m_c = 0.02
+  m_v = 0.4
+  degeneracy = 1
 }
 
 Epsilon
