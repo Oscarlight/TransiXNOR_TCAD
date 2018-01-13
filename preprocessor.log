@@ -1,0 +1,84 @@
+
+****************************************************************************
+***                       Sentaurus Workbench spp                        ***
+***                        Version K-2015.06-SP2                         ***
+***                        (1.20, x86_64, Linux)                         ***
+***                                                                      ***
+***                Copyright (c) 1994-2015 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+spp is running on host 'en-ec-ecelinux-01.coecis.cornell.edu' by user 'ml888'
+Binary: 'spp'
+Command line options: '-verbose -i -e 3 /home/ml888/sentaurus_home/XOR/TransiXOR'
+Some relevant environment variables:
+	STROOT=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2//bin/..
+	STRELEASE=current
+	STROOT_LIB=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2//bin/../tcad/current/lib
+	STDB=/home/ml888/sentaurus_home/
+	DATEX=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2//bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:12.0
+
+Preprocessing project '/home/ml888/sentaurus_home/XOR/TransiXOR'
+Loading global tool database '/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../tcad/current/lib/glib2/tooldb.tcl'
+spp will run in Global-per-node mode
+INITIALIZING PREPROCESSOR:
+Loading project tool database '/home/ml888/sentaurus_home/XOR/TransiXOR/gtooldb.tcl'
+Loading project tree '/home/ml888/sentaurus_home/XOR/TransiXOR/gtree.dat'
+Loading project variables '/home/ml888/sentaurus_home/XOR/TransiXOR/gvars.dat'
+--Get files to preprocess...
+  -->/home/ml888/sentaurus_home/XOR/TransiXOR/sde_dvs.cmd
+  -->/home/ml888/sentaurus_home/XOR/TransiXOR/sdevice_des.cmd
+  -->/home/ml888/sentaurus_home/XOR/TransiXOR/sdevice.par
+  -->/home/ml888/sentaurus_home/XOR/TransiXOR/svisual_vis.tcl
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/ml888/sentaurus_home/XOR/TransiXOR/sde_dvs.cmd
+Reading file /home/ml888/sentaurus_home/XOR/TransiXOR/sdevice_des.cmd
+Reading file /home/ml888/sentaurus_home/XOR/TransiXOR/sdevice.par
+Include the contents of the  file 'InGaAs.par in the file '/home/ml888/sentaurus_home/XOR/TransiXOR/sdevice.par
+
+Reading file /home/ml888/sentaurus_home/XOR/TransiXOR/svisual_vis.tcl
+PREPROCESSING STEP 2:
+Preprocessing file /home/ml888/sentaurus_home/XOR/TransiXOR/sdevice_des.cmd fornode 3
+'@tdr@' creates dependences with the node(s) '1'
+  -Parameter substitution: '@tdr@' has been replaced by 'n1_msh.tdr'
+
+  -Parameter substitution: '@plot@' has been replaced by 'n3_des.plt'
+
+  -Parameter substitution: '@log@' has been replaced by 'n3_des.log'
+
+  -Parameter substitution: '@tdrdat@' has been replaced by 'n3_des.tdr'
+
+  -Parameter substitution: '@parameter@' has been replaced by 'pp3_des.par'
+
+Preprocessing file /home/ml888/sentaurus_home/XOR/TransiXOR/sdevice.par fornode 3
++++Preprocessed file written to /home/ml888/sentaurus_home/XOR/TransiXOR/pp3_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp3_des.cmd'
+
+cmd_line:pp3_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n3_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '3'
+
+  -Parameter substitution: '@node@' has been replaced by '3'
+
+post_tcl_cmd: extract_vars "$wdir" n3_des.out 3; waiting "$wdir" 3 des 
+The node '3' has dependencies to the node(s) '1'
+Writing 'gexec.cmd'
+saving variables
+PREPROCESSING FINISHED, Tue Feb 28 11:45:17 2017
+STATUS: Ok
+Processing time = 0 s
+

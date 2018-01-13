@@ -1,0 +1,716 @@
+19:18:08 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:18:09 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+19:18:12 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+19:18:14 Feb 26 2017 <TransiXOR> done (6 sec)
+19:22:07 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:22:07 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+19:22:10 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+19:22:12 Feb 26 2017 <TransiXOR> done (5 sec)
+19:22:57 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:22:57 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:23:00 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+19:23:03 Feb 26 2017 <TransiXOR> done (6 sec)
+19:27:09 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:27:10 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:27:13 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+19:27:16 Feb 26 2017 <TransiXOR> done (7 sec)
+19:29:57 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:29:58 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:30:01 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+19:30:04 Feb 26 2017 <TransiXOR> done (7 sec)
+19:31:32 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:31:33 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+19:31:36 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+19:31:38 Feb 26 2017 <TransiXOR> done (6 sec)
+19:34:40 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:34:41 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+19:34:44 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+19:34:46 Feb 26 2017 <TransiXOR> done (6 sec)
+19:35:05 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:35:06 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:35:09 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+19:35:12 Feb 26 2017 <TransiXOR> done (7 sec)
+19:45:22 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:45:22 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+19:45:25 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+19:45:27 Feb 26 2017 <TransiXOR> done (5 sec)
+19:46:42 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:46:42 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:46:45 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+19:46:47 Feb 26 2017 <TransiXOR> done (5 sec)
+19:49:21 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:49:22 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:49:25 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+19:49:28 Feb 26 2017 <TransiXOR> done (7 sec)
+19:51:38 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:51:39 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:51:43 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+19:51:45 Feb 26 2017 <TransiXOR> done (7 sec)
+19:55:46 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:55:46 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:55:49 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+19:55:53 Feb 26 2017 <TransiXOR> done (7 sec)
+19:57:14 Feb 26 2017 <TransiXOR> submitted to the batch system
+19:57:14 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:57:18 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+19:57:21 Feb 26 2017 <TransiXOR> done (7 sec)
+20:01:11 Feb 26 2017 <TransiXOR> submitted to the batch system
+20:01:12 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+20:01:25 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+20:01:27 Feb 26 2017 <TransiXOR> done (16 sec)
+20:06:04 Feb 26 2017 <TransiXOR> submitted to the batch system
+20:06:04 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+20:06:07 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+20:06:10 Feb 26 2017 <TransiXOR> done (6 sec)
+20:06:35 Feb 26 2017 <TransiXOR> submitted to the batch system
+20:06:36 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+20:06:50 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+20:06:52 Feb 26 2017 <TransiXOR> done (17 sec)
+20:12:09 Feb 26 2017 <TransiXOR> submitted to the batch system
+20:12:10 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+20:12:23 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+20:12:25 Feb 26 2017 <TransiXOR> done (16 sec)
+20:16:30 Feb 26 2017 <TransiXOR> submitted to the batch system
+20:16:30 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+20:16:43 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+20:16:46 Feb 26 2017 <TransiXOR> done (16 sec)
+20:29:32 Feb 26 2017 <TransiXOR> submitted to the batch system
+20:29:33 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+20:29:35 Feb 26 2017 --- job 3 <sdevice> exited abnormally: exit()
+20:29:37 Feb 26 2017 <TransiXOR> failed
+20:51:16 Feb 26 2017 <TransiXOR> submitted to the batch system
+20:51:17 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+20:51:19 Feb 26 2017 --- job 3 <sdevice> exited abnormally: exit()
+20:51:21 Feb 26 2017 <TransiXOR> failed
+20:52:16 Feb 26 2017 <TransiXOR> submitted to the batch system
+20:52:17 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+20:52:20 Feb 26 2017 --- job 3 <sdevice> exited abnormally: exit()
+20:52:22 Feb 26 2017 <TransiXOR> failed
+20:55:22 Feb 26 2017 <TransiXOR> submitted to the batch system
+20:55:23 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+20:55:26 Feb 26 2017 --- job 3 <sdevice> exited abnormally: exit()
+20:55:28 Feb 26 2017 <TransiXOR> failed
+20:59:16 Feb 26 2017 <TransiXOR> submitted to the batch system
+20:59:16 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+20:59:29 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+20:59:33 Feb 26 2017 <TransiXOR> done (17 sec)
+21:02:34 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:02:35 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:02:50 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:02:52 Feb 26 2017 <TransiXOR> done (18 sec)
+21:05:48 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:05:49 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:05:56 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:05:58 Feb 26 2017 <TransiXOR> done (10 sec)
+21:08:59 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:09:00 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:09:14 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:09:16 Feb 26 2017 <TransiXOR> done (17 sec)
+21:12:46 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:12:46 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:13:00 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:13:02 Feb 26 2017 <TransiXOR> done (16 sec)
+21:14:35 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:14:36 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:14:40 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:14:42 Feb 26 2017 <TransiXOR> done (7 sec)
+21:18:01 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:18:02 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:18:06 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:18:08 Feb 26 2017 <TransiXOR> done (7 sec)
+21:19:49 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:19:50 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:19:54 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:19:56 Feb 26 2017 <TransiXOR> done (7 sec)
+21:25:24 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:25:25 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:25:57 Feb 26 2017 --- job 3 <sdevice> exited abnormally: exit()
+21:25:59 Feb 26 2017 <TransiXOR> failed
+21:27:21 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:27:21 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:27:52 Feb 26 2017 --- job 3 <sdevice> exited abnormally: exit()
+21:27:54 Feb 26 2017 <TransiXOR> failed
+21:31:06 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:31:07 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:31:12 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:31:14 Feb 26 2017 <TransiXOR> done (8 sec)
+21:33:05 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:33:06 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:33:12 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:33:14 Feb 26 2017 <TransiXOR> done (9 sec)
+21:34:33 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:34:34 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:34:36 Feb 26 2017 --- job 3 <sdevice> exited abnormally: exit()
+21:34:38 Feb 26 2017 <TransiXOR> failed
+21:35:26 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:35:27 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:35:32 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:35:34 Feb 26 2017 <TransiXOR> done (8 sec)
+21:46:37 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:46:37 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:46:41 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:46:44 Feb 26 2017 <TransiXOR> done (7 sec)
+21:48:05 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:48:06 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:48:10 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:48:12 Feb 26 2017 <TransiXOR> done (7 sec)
+21:49:18 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:49:19 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:49:23 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:49:25 Feb 26 2017 <TransiXOR> done (7 sec)
+21:51:03 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:51:04 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:51:08 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:51:10 Feb 26 2017 <TransiXOR> done (7 sec)
+21:54:19 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:54:20 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:54:24 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:54:27 Feb 26 2017 <TransiXOR> done (8 sec)
+21:55:43 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:55:44 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:55:47 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:55:50 Feb 26 2017 <TransiXOR> done (7 sec)
+21:57:45 Feb 26 2017 <TransiXOR> submitted to the batch system
+21:57:46 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:57:50 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+21:57:52 Feb 26 2017 <TransiXOR> done (7 sec)
+22:00:10 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:00:11 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:00:15 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:00:17 Feb 26 2017 <TransiXOR> done (7 sec)
+22:02:47 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:02:47 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+22:02:50 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+22:02:52 Feb 26 2017 <TransiXOR> done (5 sec)
+22:06:45 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:06:46 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+22:06:49 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+22:06:52 Feb 26 2017 <TransiXOR> done (7 sec)
+22:07:11 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:07:11 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:07:15 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:07:17 Feb 26 2017 <TransiXOR> done (6 sec)
+22:11:32 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:11:32 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:11:36 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:11:38 Feb 26 2017 <TransiXOR> done (6 sec)
+22:13:13 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:13:13 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:13:17 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:13:20 Feb 26 2017 <TransiXOR> done (7 sec)
+22:21:15 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:21:16 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:21:20 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:21:22 Feb 26 2017 <TransiXOR> done (7 sec)
+22:23:37 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:23:38 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:23:42 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:23:44 Feb 26 2017 <TransiXOR> done (7 sec)
+22:26:23 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:26:23 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:26:27 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:26:29 Feb 26 2017 <TransiXOR> done (6 sec)
+22:29:42 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:29:43 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:29:52 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:29:55 Feb 26 2017 <TransiXOR> done (13 sec)
+22:31:07 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:31:08 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:31:17 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:31:19 Feb 26 2017 <TransiXOR> done (12 sec)
+22:34:44 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:34:45 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:34:51 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:34:53 Feb 26 2017 <TransiXOR> done (9 sec)
+22:36:37 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:36:37 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:36:44 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:36:47 Feb 26 2017 <TransiXOR> done (10 sec)
+22:39:49 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:39:50 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:40:00 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:40:03 Feb 26 2017 <TransiXOR> done (14 sec)
+22:46:12 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:46:13 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:46:25 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:46:27 Feb 26 2017 <TransiXOR> done (15 sec)
+22:53:08 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:53:09 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+22:53:14 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+22:53:17 Feb 26 2017 <TransiXOR> done (9 sec)
+22:53:32 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:53:33 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:53:44 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:53:46 Feb 26 2017 <TransiXOR> done (14 sec)
+22:56:03 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:56:04 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+22:56:11 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+22:56:13 Feb 26 2017 <TransiXOR> done (10 sec)
+22:56:19 Feb 26 2017 <TransiXOR> submitted to the batch system
+22:56:20 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:56:32 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+22:56:35 Feb 26 2017 <TransiXOR> done (16 sec)
+23:17:28 Feb 26 2017 <TransiXOR> submitted to the batch system
+23:17:29 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+23:17:33 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+23:17:35 Feb 26 2017 <TransiXOR> done (7 sec)
+23:17:53 Feb 26 2017 <TransiXOR> submitted to the batch system
+23:17:53 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+23:18:01 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+23:18:05 Feb 26 2017 <TransiXOR> done (12 sec)
+23:20:10 Feb 26 2017 <TransiXOR> submitted to the batch system
+23:20:10 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+23:20:18 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+23:20:21 Feb 26 2017 <TransiXOR> done (11 sec)
+23:22:17 Feb 26 2017 <TransiXOR> submitted to the batch system
+23:22:18 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+23:22:26 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+23:22:29 Feb 26 2017 <TransiXOR> done (12 sec)
+23:24:19 Feb 26 2017 <TransiXOR> submitted to the batch system
+23:24:20 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+23:24:28 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+23:24:30 Feb 26 2017 <TransiXOR> done (11 sec)
+23:25:48 Feb 26 2017 <TransiXOR> submitted to the batch system
+23:25:48 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+23:25:56 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+23:25:58 Feb 26 2017 <TransiXOR> done (10 sec)
+23:33:52 Feb 26 2017 <TransiXOR> submitted to the batch system
+23:33:52 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+23:33:55 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+23:33:58 Feb 26 2017 <TransiXOR> done (6 sec)
+23:34:40 Feb 26 2017 <TransiXOR> submitted to the batch system
+23:34:41 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+23:34:46 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+23:34:48 Feb 26 2017 <TransiXOR> done (8 sec)
+23:37:27 Feb 26 2017 <TransiXOR> submitted to the batch system
+23:37:27 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+23:37:30 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+23:37:34 Feb 26 2017 <TransiXOR> done (7 sec)
+23:37:55 Feb 26 2017 <TransiXOR> submitted to the batch system
+23:37:55 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+23:38:00 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+23:38:03 Feb 26 2017 <TransiXOR> done (8 sec)
+23:44:52 Feb 26 2017 <TransiXOR> submitted to the batch system
+23:44:53 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+23:45:16 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+23:45:18 Feb 26 2017 <TransiXOR> done (26 sec)
+23:51:12 Feb 26 2017 <TransiXOR> submitted to the batch system
+23:51:13 Feb 26 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+23:51:18 Feb 26 2017 +++ job 3 <sdevice> done: exit(0)
+23:51:20 Feb 26 2017 <TransiXOR> done (8 sec)
+00:50:15 Feb 27 2017 <TransiXOR> submitted to the batch system
+00:50:15 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+00:50:24 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+00:50:26 Feb 27 2017 <TransiXOR> done (11 sec)
+00:55:39 Feb 27 2017 <TransiXOR> submitted to the batch system
+00:55:39 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+00:55:49 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+00:55:52 Feb 27 2017 <TransiXOR> done (13 sec)
+01:08:06 Feb 27 2017 <TransiXOR> submitted to the batch system
+01:08:07 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+01:08:16 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+01:08:18 Feb 27 2017 <TransiXOR> done (12 sec)
+01:09:59 Feb 27 2017 <TransiXOR> submitted to the batch system
+01:10:00 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+01:10:02 Feb 27 2017 --- job 3 <sdevice> exited abnormally: exit()
+01:10:04 Feb 27 2017 <TransiXOR> failed
+01:12:45 Feb 27 2017 <TransiXOR> submitted to the batch system
+01:12:45 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+01:12:56 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+01:12:59 Feb 27 2017 <TransiXOR> done (14 sec)
+01:22:49 Feb 27 2017 <TransiXOR> submitted to the batch system
+01:22:49 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+01:23:01 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+01:23:04 Feb 27 2017 <TransiXOR> done (15 sec)
+01:25:54 Feb 27 2017 <TransiXOR> submitted to the batch system
+01:25:55 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+01:26:06 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+01:26:08 Feb 27 2017 <TransiXOR> done (14 sec)
+01:29:19 Feb 27 2017 <TransiXOR> submitted to the batch system
+01:29:20 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+01:29:42 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+01:29:44 Feb 27 2017 <TransiXOR> done (25 sec)
+01:38:30 Feb 27 2017 <TransiXOR> submitted to the batch system
+01:38:30 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+04:46:28 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+04:46:31 Feb 27 2017 <TransiXOR> done (11281 sec)
+16:21:38 Feb 27 2017 <TransiXOR> submitted to the batch system
+16:21:39 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-02.coecis.cornell.edu': "sdevice pp3_des.cmd"
+16:22:04 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+16:22:06 Feb 27 2017 <TransiXOR> done (28 sec)
+16:24:16 Feb 27 2017 <TransiXOR> submitted to the batch system
+16:24:17 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-02.coecis.cornell.edu': "sdevice pp3_des.cmd"
+16:24:37 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+16:24:39 Feb 27 2017 <TransiXOR> done (23 sec)
+17:46:16 Feb 27 2017 <TransiXOR> submitted to the batch system
+17:46:16 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+17:46:35 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+17:46:37 Feb 27 2017 <TransiXOR> done (21 sec)
+17:50:41 Feb 27 2017 <TransiXOR> submitted to the batch system
+17:50:42 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+17:51:01 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+17:51:03 Feb 27 2017 <TransiXOR> done (22 sec)
+17:51:59 Feb 27 2017 <TransiXOR> submitted to the batch system
+17:52:00 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+17:52:19 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+17:52:21 Feb 27 2017 <TransiXOR> done (22 sec)
+17:53:55 Feb 27 2017 <TransiXOR> submitted to the batch system
+17:53:55 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+17:54:14 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+17:54:17 Feb 27 2017 <TransiXOR> done (22 sec)
+17:58:16 Feb 27 2017 <TransiXOR> submitted to the batch system
+17:58:17 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+17:58:36 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+17:58:38 Feb 27 2017 <TransiXOR> done (22 sec)
+18:01:04 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:01:04 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:01:23 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:01:25 Feb 27 2017 <TransiXOR> done (21 sec)
+18:03:39 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:03:40 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:03:59 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:04:01 Feb 27 2017 <TransiXOR> done (22 sec)
+18:05:08 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:05:08 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:05:27 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:05:30 Feb 27 2017 <TransiXOR> done (22 sec)
+18:07:25 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:07:26 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:07:45 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:07:47 Feb 27 2017 <TransiXOR> done (22 sec)
+18:08:49 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:08:49 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:09:08 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:09:11 Feb 27 2017 <TransiXOR> done (22 sec)
+18:10:31 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:10:31 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:10:50 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:10:52 Feb 27 2017 <TransiXOR> done (21 sec)
+18:12:05 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:12:05 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:12:24 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:12:26 Feb 27 2017 <TransiXOR> done (21 sec)
+18:14:09 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:14:10 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:14:29 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:14:31 Feb 27 2017 <TransiXOR> done (22 sec)
+18:15:25 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:15:25 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:15:44 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:15:47 Feb 27 2017 <TransiXOR> done (22 sec)
+18:25:05 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:25:05 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:25:24 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:25:27 Feb 27 2017 <TransiXOR> done (22 sec)
+18:27:43 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:27:43 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:28:02 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:28:04 Feb 27 2017 <TransiXOR> done (21 sec)
+18:29:04 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:29:04 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:29:23 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:29:26 Feb 27 2017 <TransiXOR> done (22 sec)
+18:37:07 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:37:08 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:37:27 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:37:29 Feb 27 2017 <TransiXOR> done (22 sec)
+18:38:08 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:38:08 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:38:27 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:38:29 Feb 27 2017 <TransiXOR> done (21 sec)
+18:39:54 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:39:54 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:40:13 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:40:16 Feb 27 2017 <TransiXOR> done (22 sec)
+18:42:39 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:42:39 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:42:58 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:43:00 Feb 27 2017 <TransiXOR> done (21 sec)
+18:43:45 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:43:45 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:44:04 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:44:06 Feb 27 2017 <TransiXOR> done (21 sec)
+18:50:12 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:50:12 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:50:31 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:50:34 Feb 27 2017 <TransiXOR> done (22 sec)
+18:53:11 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:53:11 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:53:30 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:53:32 Feb 27 2017 <TransiXOR> done (21 sec)
+18:54:32 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:54:33 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:54:52 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:54:54 Feb 27 2017 <TransiXOR> done (22 sec)
+18:56:55 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:56:55 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:57:14 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:57:17 Feb 27 2017 <TransiXOR> done (22 sec)
+18:58:56 Feb 27 2017 <TransiXOR> submitted to the batch system
+18:58:57 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:59:16 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+18:59:18 Feb 27 2017 <TransiXOR> done (22 sec)
+19:00:25 Feb 27 2017 <TransiXOR> submitted to the batch system
+19:00:26 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:00:45 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+19:00:47 Feb 27 2017 <TransiXOR> done (22 sec)
+19:02:20 Feb 27 2017 <TransiXOR> submitted to the batch system
+19:02:21 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:02:35 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+19:02:37 Feb 27 2017 <TransiXOR> done (17 sec)
+19:03:44 Feb 27 2017 <TransiXOR> submitted to the batch system
+19:03:44 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:03:58 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+19:04:00 Feb 27 2017 <TransiXOR> done (16 sec)
+19:04:27 Feb 27 2017 <TransiXOR> submitted to the batch system
+19:04:28 Feb 27 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:04:42 Feb 27 2017 +++ job 3 <sdevice> done: exit(0)
+19:04:44 Feb 27 2017 <TransiXOR> done (17 sec)
+11:24:57 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:24:58 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:25:12 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:25:14 Feb 28 2017 <TransiXOR> done (17 sec)
+11:27:02 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:27:02 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:27:16 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:27:19 Feb 28 2017 <TransiXOR> done (17 sec)
+11:28:39 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:28:39 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:28:53 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:28:55 Feb 28 2017 <TransiXOR> done (16 sec)
+11:30:44 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:30:45 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:30:59 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:31:01 Feb 28 2017 <TransiXOR> done (17 sec)
+11:32:24 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:32:25 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:32:39 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:32:41 Feb 28 2017 <TransiXOR> done (17 sec)
+11:34:01 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:34:02 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:34:16 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:34:18 Feb 28 2017 <TransiXOR> done (17 sec)
+11:34:59 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:35:00 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:35:14 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:35:16 Feb 28 2017 <TransiXOR> done (17 sec)
+11:36:07 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:36:07 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:36:21 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:36:23 Feb 28 2017 <TransiXOR> done (16 sec)
+11:40:38 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:40:39 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:40:53 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:40:55 Feb 28 2017 <TransiXOR> done (17 sec)
+11:41:54 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:41:54 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:42:08 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:42:11 Feb 28 2017 <TransiXOR> done (17 sec)
+11:43:26 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:43:27 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:43:41 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:43:43 Feb 28 2017 <TransiXOR> done (17 sec)
+11:45:27 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:45:28 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:45:47 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:45:49 Feb 28 2017 <TransiXOR> done (22 sec)
+11:47:33 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:47:34 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:47:53 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:47:55 Feb 28 2017 <TransiXOR> done (22 sec)
+11:49:12 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:49:13 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:49:32 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:49:34 Feb 28 2017 <TransiXOR> done (22 sec)
+11:53:44 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:53:44 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:54:03 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:54:05 Feb 28 2017 <TransiXOR> done (21 sec)
+11:55:51 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:55:52 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:56:11 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:56:13 Feb 28 2017 <TransiXOR> done (22 sec)
+11:57:24 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:57:25 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:57:44 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:57:46 Feb 28 2017 <TransiXOR> done (22 sec)
+11:58:54 Feb 28 2017 <TransiXOR> submitted to the batch system
+11:58:55 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+11:59:14 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+11:59:16 Feb 28 2017 <TransiXOR> done (22 sec)
+12:23:07 Feb 28 2017 <TransiXOR> submitted to the batch system
+12:23:08 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+12:23:27 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+12:23:29 Feb 28 2017 <TransiXOR> done (22 sec)
+12:26:02 Feb 28 2017 <TransiXOR> submitted to the batch system
+12:26:02 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+12:26:21 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+12:26:23 Feb 28 2017 <TransiXOR> done (21 sec)
+12:28:26 Feb 28 2017 <TransiXOR> submitted to the batch system
+12:28:27 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+12:28:46 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+12:28:48 Feb 28 2017 <TransiXOR> done (22 sec)
+12:30:34 Feb 28 2017 <TransiXOR> submitted to the batch system
+12:30:35 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+12:30:54 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+12:30:56 Feb 28 2017 <TransiXOR> done (22 sec)
+12:39:59 Feb 28 2017 <TransiXOR> submitted to the batch system
+12:40:00 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+12:40:19 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+12:40:21 Feb 28 2017 <TransiXOR> done (22 sec)
+12:50:50 Feb 28 2017 <TransiXOR> submitted to the batch system
+12:50:50 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+12:51:09 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+12:51:12 Feb 28 2017 <TransiXOR> done (22 sec)
+12:56:20 Feb 28 2017 <TransiXOR> submitted to the batch system
+12:56:21 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+12:56:40 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+12:56:42 Feb 28 2017 <TransiXOR> done (22 sec)
+12:58:21 Feb 28 2017 <TransiXOR> submitted to the batch system
+12:58:21 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+12:58:40 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+12:58:42 Feb 28 2017 <TransiXOR> done (21 sec)
+14:54:34 Feb 28 2017 <TransiXOR> submitted to the batch system
+14:54:34 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+14:54:53 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+14:54:55 Feb 28 2017 <TransiXOR> done (21 sec)
+14:58:56 Feb 28 2017 <TransiXOR> submitted to the batch system
+14:58:57 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+14:59:11 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+14:59:13 Feb 28 2017 <TransiXOR> done (17 sec)
+15:00:50 Feb 28 2017 <TransiXOR> submitted to the batch system
+15:00:50 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:01:09 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+15:01:12 Feb 28 2017 <TransiXOR> done (22 sec)
+15:10:52 Feb 28 2017 <TransiXOR> submitted to the batch system
+15:10:53 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+17:25:44 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+17:25:46 Feb 28 2017 <TransiXOR> done (8094 sec)
+18:35:50 Feb 28 2017 <TransiXOR> submitted to the batch system
+18:35:50 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:35:56 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+18:35:58 Feb 28 2017 <TransiXOR> done (8 sec)
+18:38:38 Feb 28 2017 <TransiXOR> submitted to the batch system
+18:38:39 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:38:45 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+18:38:47 Feb 28 2017 <TransiXOR> done (9 sec)
+18:40:37 Feb 28 2017 <TransiXOR> submitted to the batch system
+18:40:37 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:40:43 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+18:40:46 Feb 28 2017 <TransiXOR> done (9 sec)
+18:42:54 Feb 28 2017 <TransiXOR> submitted to the batch system
+18:42:54 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:43:00 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+18:43:03 Feb 28 2017 <TransiXOR> done (9 sec)
+18:46:24 Feb 28 2017 <TransiXOR> submitted to the batch system
+18:46:25 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:46:31 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+18:46:33 Feb 28 2017 <TransiXOR> done (9 sec)
+18:49:53 Feb 28 2017 <TransiXOR> submitted to the batch system
+18:49:54 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:50:00 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+18:50:02 Feb 28 2017 <TransiXOR> done (9 sec)
+18:51:57 Feb 28 2017 <TransiXOR> submitted to the batch system
+18:51:58 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:52:04 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+18:52:06 Feb 28 2017 <TransiXOR> done (9 sec)
+18:53:24 Feb 28 2017 <TransiXOR> submitted to the batch system
+18:53:25 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:53:31 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+18:53:33 Feb 28 2017 <TransiXOR> done (9 sec)
+18:54:38 Feb 28 2017 <TransiXOR> submitted to the batch system
+18:54:39 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:54:45 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+18:54:47 Feb 28 2017 <TransiXOR> done (9 sec)
+18:55:44 Feb 28 2017 <TransiXOR> submitted to the batch system
+18:55:44 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:55:50 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+18:55:52 Feb 28 2017 <TransiXOR> done (8 sec)
+18:58:09 Feb 28 2017 <TransiXOR> submitted to the batch system
+18:58:09 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:58:15 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+18:58:18 Feb 28 2017 <TransiXOR> done (9 sec)
+19:04:17 Feb 28 2017 <TransiXOR> submitted to the batch system
+19:04:18 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:04:24 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+19:04:26 Feb 28 2017 <TransiXOR> done (9 sec)
+19:05:11 Feb 28 2017 <TransiXOR> submitted to the batch system
+19:05:12 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:05:18 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+19:05:20 Feb 28 2017 <TransiXOR> done (9 sec)
+19:07:20 Feb 28 2017 <TransiXOR> submitted to the batch system
+19:07:21 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:07:27 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+19:07:29 Feb 28 2017 <TransiXOR> done (9 sec)
+19:08:55 Feb 28 2017 <TransiXOR> submitted to the batch system
+19:08:56 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:09:02 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+19:09:04 Feb 28 2017 <TransiXOR> done (9 sec)
+19:10:09 Feb 28 2017 <TransiXOR> submitted to the batch system
+19:10:09 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+19:10:15 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+19:10:18 Feb 28 2017 <TransiXOR> done (9 sec)
+19:14:46 Feb 28 2017 <TransiXOR> submitted to the batch system
+19:14:46 Feb 28 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+21:30:46 Feb 28 2017 +++ job 3 <sdevice> done: exit(0)
+21:30:48 Feb 28 2017 <TransiXOR> done (8162 sec)
+15:26:25 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:26:27 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:26:29 Mar 05 2017 --- job 3 <sdevice> exited abnormally: exit()
+15:26:31 Mar 05 2017 <TransiXOR> failed
+15:28:50 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:28:51 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:28:54 Mar 05 2017 --- job 3 <sdevice> exited abnormally: exit()
+15:28:56 Mar 05 2017 <TransiXOR> failed
+15:31:25 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:31:26 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:31:28 Mar 05 2017 --- job 3 <sdevice> exited abnormally: exit()
+15:31:30 Mar 05 2017 <TransiXOR> failed
+15:32:43 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:32:44 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:32:47 Mar 05 2017 --- job 3 <sdevice> exited abnormally: exit()
+15:32:49 Mar 05 2017 <TransiXOR> failed
+15:34:04 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:34:04 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:34:06 Mar 05 2017 --- job 3 <sdevice> exited abnormally: exit()
+15:34:08 Mar 05 2017 <TransiXOR> failed
+15:34:26 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:34:26 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:34:28 Mar 05 2017 --- job 3 <sdevice> exited abnormally: exit()
+15:34:31 Mar 05 2017 <TransiXOR> failed
+15:35:11 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:35:12 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:35:14 Mar 05 2017 --- job 3 <sdevice> exited abnormally: exit()
+15:35:16 Mar 05 2017 <TransiXOR> failed
+15:36:18 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:36:19 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:36:27 Mar 05 2017 +++ job 3 <sdevice> done: exit(0)
+15:36:29 Mar 05 2017 <TransiXOR> done (11 sec)
+15:37:21 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:37:22 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:37:30 Mar 05 2017 +++ job 3 <sdevice> done: exit(0)
+15:37:33 Mar 05 2017 <TransiXOR> done (12 sec)
+15:38:49 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:38:50 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:38:59 Mar 05 2017 +++ job 3 <sdevice> done: exit(0)
+15:39:01 Mar 05 2017 <TransiXOR> done (12 sec)
+15:40:30 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:40:31 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:40:40 Mar 05 2017 +++ job 3 <sdevice> done: exit(0)
+15:40:42 Mar 05 2017 <TransiXOR> done (12 sec)
+15:42:26 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:42:27 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:42:35 Mar 05 2017 +++ job 3 <sdevice> done: exit(0)
+15:42:37 Mar 05 2017 <TransiXOR> done (11 sec)
+15:45:46 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:45:47 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:45:55 Mar 05 2017 +++ job 3 <sdevice> done: exit(0)
+15:45:57 Mar 05 2017 <TransiXOR> done (11 sec)
+15:47:47 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:47:48 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:47:57 Mar 05 2017 +++ job 3 <sdevice> done: exit(0)
+15:47:59 Mar 05 2017 <TransiXOR> done (12 sec)
+15:49:09 Mar 05 2017 <TransiXOR> submitted to the batch system
+15:49:09 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:49:17 Mar 05 2017 +++ job 3 <sdevice> done: exit(0)
+15:49:19 Mar 05 2017 <TransiXOR> done (10 sec)

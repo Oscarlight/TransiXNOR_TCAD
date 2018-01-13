@@ -1,0 +1,256 @@
+****************************************************************************
+***                      Sentaurus Structure Editor                      ***
+***                        Version K-2015.06-SP2                         ***
+***                         (1.8, x86_64, Linux)                         ***
+***                                                                      ***
+***               Copyright (C) 1994-2015 Synopsys, Inc.                 ***
+***        Portions of this software are owned by Spatial Corp.          ***
+***            Copyright (C) 1986-2015. All Rights Reserved.             ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Thu Oct 15 11:36:55 PDT 2015 on tcadbld1
+
+Machine type information not available.
+
+version #3 done.
+Evaluating file n1_dvs.cmd
+
+---> (define chLength 0.01)
+
+---> (define sdLength 0.005)
+
+---> (define chThickness 0.001)
+
+---> (define tOxThickness 0.0005)
+
+---> (define bOxThickness 0.0005)
+
+---> (define x_step 0.00025)
+
+---> (define y_step 0.00025)
+
+---> (define chLengthHalf (/ chLength 2))
+
+---> (define chThicknessHalf (/ chThickness 2))
+
+---> (define sdLengthHalf (/ sdLength 2))
+
+---> (define s_x1 0.0)
+
+---> (define s_y1 bOxThickness)
+
+---> (define s_x2 sdLength)
+
+---> (define s_y2 (+ s_y1 chThickness))
+
+---> (define ch_x1 s_x2)
+
+---> (define ch_y1 s_y1)
+
+---> (define ch_x2 (+ s_x2 chLength))
+
+---> (define ch_y2 s_y2)
+
+---> (define d_x1 ch_x2)
+
+---> (define d_y1 ch_y1)
+
+---> (define d_x2 (+ ch_x2 sdLength))
+
+---> (define d_y2 ch_y2)
+
+---> (define box_x1 ch_x1)
+
+---> (define box_y1 0.0)
+
+---> (define box_x2 ch_x2)
+
+---> (define box_y2 ch_y1)
+
+---> (define tox_x1 ch_x1)
+
+---> (define tox_y1 ch_y2)
+
+---> (define tox_x2 ch_x2)
+
+---> (define tox_y2 (+ ch_y2 tOxThickness))
+
+---> (define source_x s_x1)
+
+---> (define source_y (+ s_y1 chThicknessHalf))
+
+---> (define drain_x d_x2)
+
+---> (define drain_y (- d_y2 chThicknessHalf))
+
+---> (define tGate_x (- tox_x2 chLengthHalf))
+
+---> (define tGate_y tox_y2)
+
+---> (define bGate_x (+ box_x1 chLengthHalf))
+
+---> (define bGate_y 0.0)
+
+---> (define max_x d_x2)
+
+---> (define max_y (+ d_y2 tOxThickness))
+
+---> (sdegeo:create-rectangle (position ch_x1 ch_y1 0) (position ch_x2 ch_y2 0) InGaAs Channel)
+
+---> (sdegeo:create-rectangle (position d_x1 d_y1 0) (position d_x2 d_y2 0) InGaAs Drain)
+
+---> (sdegeo:create-rectangle (position box_x1 box_y1 0) (position box_x2 box_y2 0) SiO2 TopOx)
+
+---> (sdegeo:create-rectangle (position tox_x1 tox_y1 0) (position tox_x2 tox_y2 0) SiO2 BottomOx)
+
+---> (sdegeo:create-rectangle (position s_x1 s_y1 0) (position s_x2 s_y2 0) InGaAs Source)
+
+---> (sdedr:define-refinement-window Pl.NSemi Rectangle (position d_x1 d_y1 0) (position d_x2 d_y2 0))
+
+---> (sdedr:define-constant-profile P.NSemi PhosphorusActiveConcentration 1e+19)
+
+---> (sdedr:define-constant-profile-placement P.NSemi P.NSemi Pl.NSemi)
+
+---> (sdedr:define-refinement-window Pl.PSemi Rectangle (position s_x1 s_y1 0) (position s_x2 s_y2 0))
+
+---> (sdedr:define-constant-profile P.PSemi BoronActiveConcentration 1e+19)
+
+---> (sdedr:define-constant-profile-placement P.PSemi P.PSemi Pl.PSemi)
+
+---> (sdegeo:define-contact-set source 4.0 (color:rgb 1.0 0.0 0.0) ##)
+
+---> (sdegeo:define-contact-set drain 4.0 (color:rgb 0.0 1.0 0.0) ##)
+
+---> (sdegeo:define-contact-set topGate 4.0 (color:rgb 0.0 0.0 1.0) ##)
+
+---> (sdegeo:define-contact-set bottomGate 4.0 (color:rgb 1.0 1.0 0.0) ##)
+
+---> (sdegeo:define-2d-contact (find-edge-id (position source_x source_y 0)) source)
+
+---> (sdegeo:define-2d-contact (find-edge-id (position drain_x drain_y 0)) drain)
+
+---> (sdegeo:define-2d-contact (find-edge-id (position tGate_x tGate_y 0)) topGate)
+
+---> (sdegeo:define-2d-contact (find-edge-id (position bGate_x bGate_y 0)) bottomGate)
+
+---> (sdedr:define-refinement-window Pl.Semi Rectangle (position s_x1 s_y1 0) (position d_x2 d_y2 0))
+
+---> (sdedr:define-refinement-size Ref.Semi x_step y_step 99 x_step y_step 66)
+
+---> (sdedr:define-refinement-placement Ref.Semi Ref.Semi Pl.Semi)
+
+---> (sdedr:define-refinement-window Pl.Box Rectangle (position box_x1 box_y1 0) (position box_x2 box_y2 0))
+
+---> (sdedr:define-refinement-size Ref.Box x_step y_step 99 x_step y_step 66)
+
+---> (sdedr:define-refinement-placement Ref.Box Ref.Box Pl.Box)
+
+---> (sdedr:define-refinement-window Pl.Tox Rectangle (position tox_x1 tox_y1 0) (position tox_x2 tox_y2 0))
+
+---> (sdedr:define-refinement-size Ref.Tox x_step y_step 99 x_step y_step 66)
+
+---> (sdedr:define-refinement-placement Ref.Tox Ref.Tox Pl.Tox)
+
+---> (sde:build-mesh snmesh  n1_msh)
+
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                        Version K-2015.06-SP2                         ***
+***                        (1.14, x86_64, Linux)                         ***
+***                                                                      ***
+***                       Copyright (C) 2005-2015                        ***
+***                            Synopsys, Inc.                          ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Tue Oct 13 18:08:17 PDT 2015 on: tcadbld1
+Running on: en-ec-ecelinux-01.coecis.cornell.edu
+Hardware type: x86_64
+OS name: Linux
+OS release: 3.10.0-514.6.1.el7.x86_64
+OS version: #1 SMP Sat Dec 10 11:15:38 EST 2016
+Process ID: 24503
+
+Flags used:
+
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  969 (tree) + 404 (boundary)
+
+
+=================================  brep2d quality  =====================================
+minAngle: 90  [near (0.005 0.0005)] at region=TopOx
+nVerts = 404  nTris = 408  nRegs = 9
+bmin: -0 -0
+bmax: 0.02 0.002
+min area: 0.00015625  max area: 0.00025  total area  : 0.066 interface area: 0.022
+total volume: 3e-05
+Conformal? true
+Are all boundaries on bbox? false
+==================================================================================
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (973 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+     905 points.
+    1536 elements.
+       9 regions.
+Max. connectivity = 6 located at (0.00015625;0.00075)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %               33          33          33                                
+---------------------------------------------------------------------------------
+minAngle: 32.0054  maxAngle: 90
+nVerts = 905  nTris = 1536  nMats = 5
+max connectivity (tris per node): 6
+bmin: -0 -0
+bmax: 0.02 0.002
+min edgeLength: 0.00015625  [near (0.0197656 0.00125)]
+min volume: 1.95312e-08  max volume: 1.95313e-08  Total volume: 3e-05
+bbox  volume: 4e-05
+Are all boundaries on bbox? false
+=================================================================================
+Interpolating data...done.
+done.
+Saving file n1_msh.tdr...done.
+
+===============================  Timer Report===================================
+              Total Mesh Generation Time:      0.13s       100%
+                       Rate of #Vertices:  6.95e+03
+                          Rate of #Edges:  1.28e+04
+                          Rate of #Faces:  1.18e+04
+                       Rate of #Elements:         0
+
+                            Time Covered:         0s         0%
+
+
+"Meshing successful"
+---> #[end-of-file]
+
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Sun Feb 26 23:37:29 2017"
+"End   Time:    Sun Feb 26 23:37:30 2017"
+"Total Execution Time (sec):    1"
+"Total System calls Time (sec): 0"
+"************************************************************************"

@@ -1,0 +1,12 @@
+Material = "GaAs" {
+#include "GaAs.par"
+}
+
+Material = "AlGaAs" {
+#include "AlGaAs.par"
+}
+
+Material = "InGaAs" {
+#include "InGaAs.par"
+}
+

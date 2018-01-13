@@ -1,0 +1,4 @@
+Material = "InGaAs" {
+#include "InGaAs.par"
+}
+

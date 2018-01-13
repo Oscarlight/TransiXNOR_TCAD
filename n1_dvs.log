@@ -1,0 +1,147 @@
+Evaluating file n1_dvs.cmd
+---> (define chLength 0.01)
+chLength
+---> (define sdLength 0.005)
+sdLength
+---> (define chThickness 0.001)
+chThickness
+---> (define tOxThickness 0.0005)
+tOxThickness
+---> (define bOxThickness 0.0005)
+bOxThickness
+---> (define x_step 0.00025)
+x_step
+---> (define y_step 0.00025)
+y_step
+---> (define chLengthHalf (/ chLength 2))
+chLengthHalf
+---> (define chThicknessHalf (/ chThickness 2))
+chThicknessHalf
+---> (define sdLengthHalf (/ sdLength 2))
+sdLengthHalf
+---> (define s_x1 0.0)
+s_x1
+---> (define s_y1 bOxThickness)
+s_y1
+---> (define s_x2 sdLength)
+s_x2
+---> (define s_y2 (+ s_y1 chThickness))
+s_y2
+---> (define ch_x1 s_x2)
+ch_x1
+---> (define ch_y1 s_y1)
+ch_y1
+---> (define ch_x2 (+ s_x2 chLength))
+ch_x2
+---> (define ch_y2 s_y2)
+ch_y2
+---> (define d_x1 ch_x2)
+d_x1
+---> (define d_y1 ch_y1)
+d_y1
+---> (define d_x2 (+ ch_x2 sdLength))
+d_x2
+---> (define d_y2 ch_y2)
+d_y2
+---> (define box_x1 ch_x1)
+box_x1
+---> (define box_y1 0.0)
+box_y1
+---> (define box_x2 ch_x2)
+box_x2
+---> (define box_y2 ch_y1)
+box_y2
+---> (define tox_x1 ch_x1)
+tox_x1
+---> (define tox_y1 ch_y2)
+tox_y1
+---> (define tox_x2 ch_x2)
+tox_x2
+---> (define tox_y2 (+ ch_y2 tOxThickness))
+tox_y2
+---> (define source_x s_x1)
+source_x
+---> (define source_y (+ s_y1 chThicknessHalf))
+source_y
+---> (define drain_x d_x2)
+drain_x
+---> (define drain_y (- d_y2 chThicknessHalf))
+drain_y
+---> (define tGate_x (- tox_x2 chLengthHalf))
+tGate_x
+---> (define tGate_y tox_y2)
+tGate_y
+---> (define bGate_x (+ box_x1 chLengthHalf))
+bGate_x
+---> (define bGate_y 0.0)
+bGate_y
+---> (define max_x d_x2)
+max_x
+---> (define max_y (+ d_y2 tOxThickness))
+max_y
+---> (sdegeo:create-rectangle (position ch_x1 ch_y1 0) (position ch_x2 ch_y2 0) InGaAs Channel)
+#[body 5 1]
+---> (sdegeo:create-rectangle (position d_x1 d_y1 0) (position d_x2 d_y2 0) InGaAs Drain)
+#[body 6 1]
+---> (sdegeo:create-rectangle (position box_x1 box_y1 0) (position box_x2 box_y2 0) SiO2 TopOx)
+#[body 7 1]
+---> (sdegeo:create-rectangle (position tox_x1 tox_y1 0) (position tox_x2 tox_y2 0) SiO2 BottomOx)
+#[body 8 1]
+---> (sdegeo:create-rectangle (position s_x1 s_y1 0) (position s_x2 s_y2 0) InGaAs Source)
+#[body 9 1]
+---> (sdedr:define-refinement-window Pl.NSemi Rectangle (position d_x1 d_y1 0) (position d_x2 d_y2 0))
+#[body 10 1]
+---> (sdedr:define-constant-profile P.NSemi PhosphorusActiveConcentration 1e+19)
+#t
+---> (sdedr:define-constant-profile-placement P.NSemi P.NSemi Pl.NSemi)
+#t
+---> (sdedr:define-refinement-window Pl.PSemi Rectangle (position s_x1 s_y1 0) (position s_x2 s_y2 0))
+#[body 11 1]
+---> (sdedr:define-constant-profile P.PSemi BoronActiveConcentration 1e+19)
+#t
+---> (sdedr:define-constant-profile-placement P.PSemi P.PSemi Pl.PSemi)
+#t
+---> (sdegeo:define-contact-set source 4.0 (color:rgb 1.0 0.0 0.0) ##)
+()
+---> (sdegeo:define-contact-set drain 4.0 (color:rgb 0.0 1.0 0.0) ##)
+()
+---> (sdegeo:define-contact-set topGate 4.0 (color:rgb 0.0 0.0 1.0) ##)
+()
+---> (sdegeo:define-contact-set bottomGate 4.0 (color:rgb 1.0 1.0 0.0) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position source_x source_y 0)) source)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position drain_x drain_y 0)) drain)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position tGate_x tGate_y 0)) topGate)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position bGate_x bGate_y 0)) bottomGate)
+()
+---> (sdedr:define-refinement-window Pl.Semi Rectangle (position s_x1 s_y1 0) (position d_x2 d_y2 0))
+#[body 32 1]
+---> (sdedr:define-refinement-size Ref.Semi x_step y_step 99 x_step y_step 66)
+#t
+---> (sdedr:define-refinement-placement Ref.Semi Ref.Semi Pl.Semi)
+#t
+---> (sdedr:define-refinement-window Pl.Box Rectangle (position box_x1 box_y1 0) (position box_x2 box_y2 0))
+#[body 33 1]
+---> (sdedr:define-refinement-size Ref.Box x_step y_step 99 x_step y_step 66)
+#t
+---> (sdedr:define-refinement-placement Ref.Box Ref.Box Pl.Box)
+#t
+---> (sdedr:define-refinement-window Pl.Tox Rectangle (position tox_x1 tox_y1 0) (position tox_x2 tox_y2 0))
+#[body 34 1]
+---> (sdedr:define-refinement-size Ref.Tox x_step y_step 99 x_step y_step 66)
+#t
+---> (sdedr:define-refinement-placement Ref.Tox Ref.Tox Pl.Tox)
+#t
+---> (sde:build-mesh snmesh  n1_msh)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Sun Feb 26 23:37:29 2017"
+"End   Time:    Sun Feb 26 23:37:30 2017"
+"Total Execution Time (sec):    1"
+"Total System calls Time (sec): 0"
+"************************************************************************"
