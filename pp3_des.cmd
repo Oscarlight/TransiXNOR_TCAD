@@ -1,8 +1,8 @@
 Electrode{
    { Name="source"      Voltage=  0.0  }
    { Name="drain"       Voltage=  0.0  }
-   { Name="topGate"     Voltage=  -0.01  Schottky Barrier = 0.05  } ### prevent skip Vtg = 0
-   { Name="bottomGate"  Voltage=  0.0  Schottky Barrier =  0.05 }
+   { Name="topGate"       Voltage=  0.2  Schottky Barrier = 0.02 } ### prevent skip Vtg = 0
+   { Name="bottomGate"    Voltage=  0.2  Schottky Barrier = 0.02 }
 }
 
 File{
@@ -15,11 +15,9 @@ File{
 
 
 Physics {
-   Recombination( # without B2B, current = 5e-15
-     Band2Band (
-       Model = E1
-       * Model = Hurkx
-       DensityCorrection = Local
+   Recombination(
+     Band2Band(
+       Model = NonLocalPath
      )
    )                           
    EffectiveIntrinsicDensity( NoBandGapNarrowing )
@@ -39,14 +37,10 @@ Plot{
    eQuasiFermi hQuasiFermi
    eBarrierTunneling
    hBarrierTunneling
-
    ElectricField/Vector Potential SpaceCharge
-
    Doping DonorConcentration AcceptorConcentration
-
    eGradQuasiFermi/Vector hGradQuasiFermi/Vector
    eEparallel hEparalllel
-
    BandGap 
    Affinity
    ConductionBand ValenceBand
@@ -69,7 +63,6 @@ Math{
 Solve{
 *- Initial Solution:
    Coupled( Iterations= 100 ){ Poisson }
-   Coupled{ Poisson Electron Hole }
    Coupled{ Poisson Electron Hole }
 
 

@@ -714,3 +714,15 @@
 15:49:09 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
 15:49:17 Mar 05 2017 +++ job 3 <sdevice> done: exit(0)
 15:49:19 Mar 05 2017 <TransiXOR> done (10 sec)
+15:54:47 Jan 13 2018 <XNOR> submitted to the batch system
+15:54:48 Jan 13 2018     job 1 <sde> started on host 'en-ec-xing-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+15:54:51 Jan 13 2018 +++ job 1 <sde> done: exit(0)
+15:54:53 Jan 13 2018 <XNOR> done (6 sec)
+15:55:20 Jan 13 2018 <XNOR> submitted to the batch system
+15:55:20 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+15:55:22 Jan 13 2018 --- job 3 <sdevice> exited abnormally: exit()
+15:55:24 Jan 13 2018 <XNOR> failed
+16:09:57 Jan 13 2018 <XNOR> submitted to the batch system
+16:09:57 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+16:10:00 Jan 13 2018 --- job 3 <sdevice> exited abnormally: exit()
+16:10:02 Jan 13 2018 <XNOR> failed

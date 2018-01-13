@@ -173,12 +173,12 @@ Evaluating file n1_dvs.cmd
 ****************************************************************************
 
 Compiled Tue Oct 13 18:08:17 PDT 2015 on: tcadbld1
-Running on: en-ec-ecelinux-01.coecis.cornell.edu
+Running on: en-ec-xing-01.coecis.cornell.edu
 Hardware type: x86_64
 OS name: Linux
-OS release: 3.10.0-514.6.1.el7.x86_64
-OS version: #1 SMP Sat Dec 10 11:15:38 EST 2016
-Process ID: 24503
+OS release: 3.10.0-514.26.2.el7.x86_64
+OS version: #1 SMP Fri Jun 30 05:26:04 UTC 2017
+Process ID: 32173
 
 Flags used:
 
@@ -235,10 +235,10 @@ done.
 Saving file n1_msh.tdr...done.
 
 ===============================  Timer Report===================================
-              Total Mesh Generation Time:      0.13s       100%
-                       Rate of #Vertices:  6.95e+03
-                          Rate of #Edges:  1.28e+04
-                          Rate of #Faces:  1.18e+04
+              Total Mesh Generation Time:     0.196s       100%
+                       Rate of #Vertices:  4.61e+03
+                          Rate of #Edges:  8.51e+03
+                          Rate of #Faces:  7.82e+03
                        Rate of #Elements:         0
 
                             Time Covered:         0s         0%
@@ -249,8 +249,8 @@ Saving file n1_msh.tdr...done.
 
 "************************************************************************"
 "Sentaurus Structure Editor "
-"Start Time:    Sun Feb 26 23:37:29 2017"
-"End   Time:    Sun Feb 26 23:37:30 2017"
+"Start Time:    Sat Jan 13 15:54:50 2018"
+"End   Time:    Sat Jan 13 15:54:51 2018"
 "Total Execution Time (sec):    1"
 "Total System calls Time (sec): 0"
 "************************************************************************"

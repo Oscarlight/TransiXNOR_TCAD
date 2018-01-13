@@ -1,8 +1,8 @@
 Electrode{
    { Name="source"      Voltage=  0.0  }
    { Name="drain"       Voltage=  0.0  }
-   { Name="topGate"     Voltage=  -0.01  Schottky Barrier = 0.05  } ### prevent skip Vtg = 0
-   { Name="bottomGate"  Voltage=  0.0  Schottky Barrier =  0.05 }
+   { Name="topGate"       Voltage=  0.2  Schottky Barrier = 0.02 } ### prevent skip Vtg = 0
+   { Name="bottomGate"    Voltage=  0.2  Schottky Barrier = 0.02 }
 }
 
 File{
@@ -15,17 +15,13 @@ File{
 
 
 Physics {
-   # for tunneling 
-   # eBarrierTunneling "NLM" hBarrierTunneling "NLM"
-   Recombination( # without B2B, current = 5e-15
-     Band2Band (
-       Model = E1
-       * Model = Hurkx
-       DensityCorrection = Local
+   Recombination(
+     Band2Band(
+       Model = NonLocalPath
      )
    )                           
    EffectiveIntrinsicDensity( NoBandGapNarrowing )
-}
+}}
 
 
 Physics( Material="InGaAs"){
@@ -41,14 +37,10 @@ Plot{
    eQuasiFermi hQuasiFermi
    eBarrierTunneling
    hBarrierTunneling
-
    ElectricField/Vector Potential SpaceCharge
-
    Doping DonorConcentration AcceptorConcentration
-
    eGradQuasiFermi/Vector hGradQuasiFermi/Vector
    eEparallel hEparalllel
-
    BandGap 
    Affinity
    ConductionBand ValenceBand
@@ -72,7 +64,6 @@ Solve{
 *- Initial Solution:
    Coupled( Iterations= 100 ){ Poisson }
    Coupled{ Poisson Electron Hole }
-   Coupled{ Poisson Electron Hole }
 
 #----------------------------------------------------------------------#
 #- Plots
@@ -84,7 +75,7 @@ Quasistationary( InitialStep= 5e-2 Increment= 1.25
  { Coupled{ Poisson Electron Hole } }
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 
  Minstep= 1e-5 MaxStep= 0.30 
- Goal{ Name="bottomGate" Voltage = 0.4 }) 
+ Goal{ Name="bottomGate" Voltage = 0.0 }) 
  { Coupled{ Poisson Electron Hole } }
 NewCurrentFile="IV_Vds_0.0_Vbg_0.0_"
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 

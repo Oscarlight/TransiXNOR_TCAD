@@ -1,5 +1,5 @@
-DATE: 03/05/17 - 03/05/17 cmlog.txt
+DATE: 01/13/18 - 01/13/18 cmlog.txt
 
 This localhost (server) information:
-	Name:    en-ec-ecelinux-01.coecis.cornell.edu
-	Address: 128.253.128.57
+	Name:    en-ec-xing-01.coecis.cornell.edu
+	Address: 128.84.48.175

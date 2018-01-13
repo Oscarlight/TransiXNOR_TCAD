@@ -1,11 +1,11 @@
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Project Summary for /home/ml888/sentaurus_home/XOR/TransiXOR
+Project Summary for /home/ml888/sentaurus_home/XNOR
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Project Details :
 		current status		: running
-		was last modified	: 03/05/2017 15:49:09
+		was last modified	: 01/13/2018 16:09:57
 		was modified by		: ml888
-		was run on host		: en-ec-ecelinux-01.coecis.cornell.edu
+		was run on host		: en-ec-xing-01.coecis.cornell.edu
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Total Number of Nodes			: 6
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -18,7 +18,8 @@ Total Number of Nodes			: 6
  
 Nodes by status				: 
 		none			: 3
-		done			: 2
+		failed			: 1
+		done			: 1
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -29,14 +30,14 @@ Hosts and Execution Information
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
  
-Host "en-ec-ecelinux-01.coecis.cornell.edu" 
+Host "en-ec-xing-01.coecis.cornell.edu" 
 		Number of nodes		: 2
-		Host Time		: 9 sec
+		Host Time		: 3 sec
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-		Total RunTime		: 9 sec
+		Total RunTime		: 3 sec
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Project Summary generated on		: 03/05/2017 15:49:19
+Project Summary generated on		: 01/13/2018 16:10:02
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -1,0 +1,6 @@
+
+Error in Band2Band(NonlocalPath1)
+ The specified model parameter Bpath gives the tunneling mass    6.99214e-01 larger than 0.5.
+ Use smaller Bpath or specify Rpath
+ !
+

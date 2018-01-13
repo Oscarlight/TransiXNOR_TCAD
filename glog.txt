@@ -12,30 +12,30 @@
 ***  license agreement between you, or your company, and Synopsys, Inc.  ***
 ****************************************************************************
 
-gsub is running on host 'en-ec-ecelinux-01.coecis.cornell.edu' by user 'ml888'
+gsub is running on host 'en-ec-xing-01.coecis.cornell.edu' by user 'ml888'
 Binary 'gsub'
-Command line options '-verbose -swb_pid 35153 -q local:default -e 3 /home/ml888/sentaurus_home/XOR/TransiXOR'
-Current directory '/home/ml888'
+Command line options '-verbose -swb_pid 31963 -q local:default -e 3 /home/ml888/sentaurus_home/XNOR'
+Current directory '/home/ml888/sentaurus_home'
 Some relevant environment variables:
-	STROOT=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2//bin/..
+	STROOT=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/..
 	STRELEASE=current
-	STROOT_LIB=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2//bin/../tcad/current/lib
-	STDB=/home/ml888/sentaurus_home/
-	DATEX=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2//bin/../tcad/current/lib/datexcodes.txt
+	STROOT_LIB=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../tcad/current/lib
+	STDB=~/sentaurus_home/
+	DATEX=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../tcad/current/lib/datexcodes.txt
 	DISPLAY=localhost:10.0
 
 Starting swblm daemon...OK
-Project '/home/ml888/sentaurus_home/XOR/TransiXOR'
+Project '/home/ml888/sentaurus_home/XNOR'
 Loading global tool database '/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../tcad/current/lib/glib2/tooldb.tcl'
-Loading project tool database '/home/ml888/sentaurus_home/XOR/TransiXOR/gtooldb.tcl'
-15:49:09 Mar 05 2017 <TransiXOR> submitted to the batch system
+Loading project tool database '/home/ml888/sentaurus_home/XNOR/gtooldb.tcl'
+16:09:57 Jan 13 2018 <XNOR> submitted to the batch system
 Loading global queue configuration file '/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../queues/gqueues.dat'...ok
-Loading project tree '/home/ml888/sentaurus_home/XOR/TransiXOR/gtree.dat'
+Loading project tree '/home/ml888/sentaurus_home/XNOR/gtree.dat'
 >>>>> Preprocessing the project to run in normal mode
-Loading jobs and dependence graph '"/home/ml888/sentaurus_home/XOR/TransiXOR/gexec.cmd"'
+Loading jobs and dependence graph '"/home/ml888/sentaurus_home/XNOR/gexec.cmd"'
 INITIALIZING PREPROCESSOR:
-Loading project tree '/home/ml888/sentaurus_home/XOR/TransiXOR/gtree.dat'
-Loading project variables '/home/ml888/sentaurus_home/XOR/TransiXOR/gvars.dat'
+Loading project tree '/home/ml888/sentaurus_home/XNOR/gtree.dat'
+Loading project variables '/home/ml888/sentaurus_home/XNOR/gvars.dat'
 --Get files to preprocess...
 --Create file handlers...
 --Read the toolflow...
@@ -46,45 +46,44 @@ Loading project variables '/home/ml888/sentaurus_home/XOR/TransiXOR/gvars.dat'
 --Get all parameters...
 PREPROCESSOR SUCCESSFULLY INITIALIZED.
 PREPROCESSING STEP 1:
-Reading file /home/ml888/sentaurus_home/XOR/TransiXOR/sde_dvs.cmd
-Reading file /home/ml888/sentaurus_home/XOR/TransiXOR/sdevice_des.cmd
-Reading file /home/ml888/sentaurus_home/XOR/TransiXOR/sdevice.par
-Include the contents of the  file 'InGaAs.par in the file '/home/ml888/sentaurus_home/XOR/TransiXOR/sdevice.par
+Reading file /home/ml888/sentaurus_home/XNOR/sde_dvs.cmd
+Reading file /home/ml888/sentaurus_home/XNOR/sdevice_des.cmd
+Reading file /home/ml888/sentaurus_home/XNOR/sdevice.par
+Include the contents of the  file 'InGaAs.par in the file '/home/ml888/sentaurus_home/XNOR/sdevice.par
 
-Reading file /home/ml888/sentaurus_home/XOR/TransiXOR/svisual_vis.tcl
+Reading file /home/ml888/sentaurus_home/XNOR/svisual_vis.tcl
 PREPROCESSING STEP 2:
-Preprocessing file /home/ml888/sentaurus_home/XOR/TransiXOR/sdevice_des.cmd fornode 3
+Preprocessing file /home/ml888/sentaurus_home/XNOR/sdevice_des.cmd fornode 3
 '@tdr@' creates dependences with the node(s) '1'
-Preprocessing file /home/ml888/sentaurus_home/XOR/TransiXOR/sdevice.par fornode 3
+Preprocessing file /home/ml888/sentaurus_home/XNOR/sdevice.par fornode 3
 +++Node successfully preprocessed+++
 The node '3' has dependencies to the node(s) '1'
 Writing 'gexec.cmd'
 saving variables
-Loading jobs and dependence graph '"/home/ml888/sentaurus_home/XOR/TransiXOR/gexec.cmd"'
->>>>>>>>>> job '3' status changed from 'done' to 'queued'
+Loading jobs and dependence graph '"/home/ml888/sentaurus_home/XNOR/gexec.cmd"'
+>>>>>>>>>> job '3' status changed from 'failed' to 'queued'
 -----------------------------------------------------------------
 queue "local:default" - 3
 -----------------------------------------------------------------
 >>>>> cleaning the index file from previous simulations 
-                       /home/ml888/sentaurus_home/XOR/TransiXOR/.gindex
+                       /home/ml888/sentaurus_home/XNOR/.gindex
 >>>>>>>>>> Initializing back-end schedulers...
 >>>>>>>> Loaded Schedulers are ... local
 local% initialize 'local' scheduler data
 >>>>> List of Active Schedulers : local
 <<<<<<<<<<
 >>>>>>>>>> job '3' status changed from 'queued' to 'ready'
->>>>>>>>>> os_rm /home/ml888/sentaurus_home/XOR/TransiXOR/n3_des.job
+>>>>>>>>>> os_rm /home/ml888/sentaurus_home/XNOR/n3_des.job
 local% submit job 3 for local execution
 >>>>>>>>>> job '3' status changed from 'ready' to 'pending'
-local% exec "/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../bin/gjob -verbose -nice 19  -job 3 -swb_pid 35153 -gsub_pid 36246 -gsub_host en-ec-ecelinux-01.coecis.cornell.edu -gsub_port 34293 "/home/ml888/sentaurus_home/XOR/TransiXOR""
+local% exec "/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../bin/gjob -verbose -nice 19  -job 3 -swb_pid 31963 -gsub_pid 32254 -gsub_host en-ec-xing-01.coecis.cornell.edu -gsub_port 42739 "/home/ml888/sentaurus_home/XNOR""
 >>>>>>>>>> job '3' status changed from 'pending' to 'running'
-15:49:09 Mar 05 2017     job 3 <sdevice> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
->>>>>>>>>> job '3' status changed from 'running' to 'done'
-15:49:17 Mar 05 2017 +++ job 3 <sdevice> done: exit(0)
+16:09:57 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+>>>>>>>>>> job '3' status changed from 'running' to 'failed'
+16:10:00 Jan 13 2018 --- job 3 <sdevice> exited abnormally: exit()
 
 SCHEDULING REPORT
-+++ done    : 3
+--- failed  : 3
 
-15:49:19 Mar 05 2017 <TransiXOR> done (10 sec)
->>>>>> Writing to status file 10
-gsub exits with status 0
+16:10:02 Jan 13 2018 <XNOR> failed
+>>>>>> Writing to status file 5

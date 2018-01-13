@@ -12,25 +12,25 @@
 ***  license agreement between you, or your company, and Synopsys, Inc.  ***
 ****************************************************************************
 
-gjob is running on host 'en-ec-ecelinux-01.coecis.cornell.edu' by user 'ml888'
+gjob is running on host 'en-ec-xing-01.coecis.cornell.edu' by user 'ml888'
 Binary 'gjob'
-Command line options '-verbose -nice 19 -job 1 -swb_pid 11785 -gsub_pid 24457 -gsub_host en-ec-ecelinux-01.coecis.cornell.edu -gsub_port 35745 /home/ml888/sentaurus_home/XOR/TransiXOR'
-Current directory '/home/ml888/sentaurus_home/XOR/TransiXOR'
+Command line options '-verbose -nice 19 -job 1 -swb_pid 31963 -gsub_pid 32127 -gsub_host en-ec-xing-01.coecis.cornell.edu -gsub_port 32825 /home/ml888/sentaurus_home/XNOR'
+Current directory '/home/ml888/sentaurus_home/XNOR'
 Some relevant environment variables:
-	STROOT=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2//bin/..
+	STROOT=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/..
 	STRELEASE=current
-	STROOT_LIB=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2//bin/../tcad/current/lib
-	STDB=/home/ml888/sentaurus_home/
-	DATEX=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2//bin/../tcad/current/lib/datexcodes.txt
-	DISPLAY=localhost:15.0
+	STROOT_LIB=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../tcad/current/lib
+	STDB=~/sentaurus_home/
+	DATEX=/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:10.0
 
-Project '/home/ml888/sentaurus_home/XOR/TransiXOR'
+Project '/home/ml888/sentaurus_home/XNOR'
 Loading global tool database '/opt/synopsys-grace-xing/pkgs/synopsys-sentaurus-K_2015.06-SP2/sentaurus/K_2015.06-SP2/bin/../tcad/current/lib/glib2/tooldb.tcl'
 INITIALIZING PREPROCESSOR:
-Loading project tool database '/home/ml888/sentaurus_home/XOR/TransiXOR/gtooldb.tcl'
-Loading project tree '/home/ml888/sentaurus_home/XOR/TransiXOR/gtree.dat'
-Loading jobs and dependence graph '"/home/ml888/sentaurus_home/XOR/TransiXOR/gexec.cmd"'
-Loading project variables '/home/ml888/sentaurus_home/XOR/TransiXOR/gvars.dat'
+Loading project tool database '/home/ml888/sentaurus_home/XNOR/gtooldb.tcl'
+Loading project tree '/home/ml888/sentaurus_home/XNOR/gtree.dat'
+Loading jobs and dependence graph '"/home/ml888/sentaurus_home/XNOR/gexec.cmd"'
+Loading project variables '/home/ml888/sentaurus_home/XNOR/gvars.dat'
 --Get files to preprocess...
 --Create file handlers...
 --Read the toolflow...
@@ -41,16 +41,16 @@ Loading project variables '/home/ml888/sentaurus_home/XOR/TransiXOR/gvars.dat'
 --Get all parameters...
 PREPROCESSOR SUCCESSFULLY INITIALIZED.
 PREPROCESSING STEP 1:
-Reading file /home/ml888/sentaurus_home/XOR/TransiXOR/sde_dvs.cmd
+Reading file /home/ml888/sentaurus_home/XNOR/sde_dvs.cmd
 PREPROCESSING STEP 2:
-Preprocessing file /home/ml888/sentaurus_home/XOR/TransiXOR/sde_dvs.cmd fornode 1
-+++Preprocessing results written to /home/ml888/sentaurus_home/XOR/TransiXOR/pp1_dvs.cmd
+Preprocessing file /home/ml888/sentaurus_home/XNOR/sde_dvs.cmd fornode 1
++++Preprocessing results written to /home/ml888/sentaurus_home/XNOR/pp1_dvs.cmd
 Start Simulation section
-23:37:28 Feb 26 2017     job 1 <sde> started on host 'en-ec-ecelinux-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
-23:37:30 Feb 26 2017 +++ job 1 <sde> done: exit(0)
+15:54:49 Jan 13 2018     job 1 <sde> started on host 'en-ec-xing-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+15:54:51 Jan 13 2018 +++ job 1 <sde> done: exit(0)
 End Simulation section
 Start Epilogue section
-23:37:30 Feb 26 2017 *** job 1 pre/post execution: eval " gjob::find_extracted_vars "/home/ml888/sentaurus_home/XOR/TransiXOR" n1_dvs.out 1; waiting "/home/ml888/sentaurus_home/XOR/TransiXOR" 1 dvs "
+15:54:51 Jan 13 2018 *** job 1 pre/post execution: eval " gjob::find_extracted_vars "/home/ml888/sentaurus_home/XNOR" n1_dvs.out 1; waiting "/home/ml888/sentaurus_home/XNOR" 1 dvs "
 End Epilogue section
 Job succeeded
 gjob exits with status 0
