@@ -5,8 +5,8 @@
 (define  chLength     0.010) ; 10 nm
 (define  sdLength     0.005) ; 5 nm
 (define  chThickness  0.001) ; 1 nm 
-(define  tOxThickness 0.0005) ; 1 nm
-(define  bOxThickness 0.0005) ; 1 nm
+(define  tOxThickness 0.0005) ; 0.5 nm
+(define  bOxThickness 0.0005) ; 0.5 nm
 (define  x_step       0.00025); 0.25 nm
 (define  y_step       0.00025); 0.25 nm
 

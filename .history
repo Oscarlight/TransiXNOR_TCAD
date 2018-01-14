@@ -750,3 +750,23 @@
 18:22:26 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
 18:24:25 Jan 13 2018 +++ job 3 <sdevice> done: exit(0)
 18:24:27 Jan 13 2018 <XNOR> done (121 sec)
+18:53:21 Jan 13 2018 <XNOR> submitted to the batch system
+18:53:21 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+18:55:21 Jan 13 2018 +++ job 3 <sdevice> done: exit(0)
+18:55:23 Jan 13 2018 <XNOR> done (122 sec)
+22:29:01 Jan 13 2018 <XNOR> submitted to the batch system
+22:29:01 Jan 13 2018     job 1 <sde> started on host 'en-ec-xing-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+22:29:06 Jan 13 2018 +++ job 1 <sde> done: exit(0)
+22:29:09 Jan 13 2018 <XNOR> done (8 sec)
+22:29:52 Jan 13 2018 <XNOR> submitted to the batch system
+22:29:52 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+22:31:54 Jan 13 2018 +++ job 3 <sdevice> done: exit(0)
+22:31:57 Jan 13 2018 <XNOR> done (125 sec)
+23:20:28 Jan 13 2018 <XNOR> submitted to the batch system
+23:20:28 Jan 13 2018     job 1 <sde> started on host 'en-ec-xing-01.coecis.cornell.edu': "sde -e -l n1_dvs.cmd"
+23:20:31 Jan 13 2018 +++ job 1 <sde> done: exit(0)
+23:20:33 Jan 13 2018 <XNOR> done (5 sec)
+23:21:13 Jan 13 2018 <XNOR> submitted to the batch system
+23:21:13 Jan 13 2018     job 3 <sdevice> started on host 'en-ec-xing-01.coecis.cornell.edu': "sdevice pp3_des.cmd"
+23:23:15 Jan 13 2018 +++ job 3 <sdevice> done: exit(0)
+23:23:17 Jan 13 2018 <XNOR> done (124 sec)

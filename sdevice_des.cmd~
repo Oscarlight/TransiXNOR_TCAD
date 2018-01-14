@@ -3,6 +3,10 @@ Electrode{
    { Name="drain"       Voltage=  0.0  }
    { Name="topGate"       Voltage=  0.0  Schottky Barrier = 0.02 }
    { Name="bottomGate"    Voltage=  0.0  Schottky Barrier = 0.02 }
+   { Name="topSource"     Voltage=  -0.35  }
+   { Name="bottomSource"  Voltage=  -0.35  }
+   { Name="topDrain"      Voltage=  0.75  }
+   { Name="bottomDrain"   Voltage=  0.75  }
 }
 
 File{
@@ -112,7 +116,6 @@ Quasistationary( InitialStep= 5e-2 Increment= 1.25
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 
  Minstep= 1e-5 MaxStep= 0.30 
  Goal{ Name="bottomGate" Voltage = 0.2 }) 
- { Coupled{ Poisson Electron Hole } }
  { Coupled{ Poisson Electron Hole } }
 NewCurrentFile="IV_Vds_0.4_Vbg_0.2_"
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 

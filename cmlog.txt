@@ -1,4 +1,4 @@
-DATE: 01/13/18 - 01/13/18 cmlog.txt
+DATE: 01/14/18 - 01/14/18 cmlog.txt
 
 This localhost (server) information:
 	Name:    en-ec-xing-01.coecis.cornell.edu

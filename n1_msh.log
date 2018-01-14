@@ -18,7 +18,7 @@ Hardware type: x86_64
 OS name: Linux
 OS release: 3.10.0-514.26.2.el7.x86_64
 OS version: #1 SMP Fri Jun 30 05:26:04 UTC 2017
-Process ID: 32173
+Process ID: 1157
 
 Flags used:
 
@@ -66,8 +66,8 @@ Saving file n1_msh.tdr...done.
 ===============================  Timer Report===================================
               Total Mesh Generation Time:     0.196s       100%
                        Rate of #Vertices:  4.61e+03
-                          Rate of #Edges:  8.51e+03
-                          Rate of #Faces:  7.82e+03
+                          Rate of #Edges:  8.52e+03
+                          Rate of #Faces:  7.83e+03
                        Rate of #Elements:         0
 
                             Time Covered:         0s         0%
