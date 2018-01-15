@@ -5,8 +5,8 @@ BarrierTunneling {
 
 Band2BandTunneling
 {
-  *Apath1	= 4.0000e+14	# [1/cm^3/sec]
-  *Bpath1	= 1.0000e+07	# [V/cm]
+  * Apath1	= 4.0000e+14	# [1/cm^3/sec]
+  * Bpath1	= 1.0000e+07	# [V/cm]
   Dpath1	= 0.0000e+00	# [eV]
   Ppath1	= 0	# [eV] Direct Tunneling when = 0
   m_c = 0.02

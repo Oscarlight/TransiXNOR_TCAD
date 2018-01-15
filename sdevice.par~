@@ -1,7 +1,7 @@
 #define ParFileDir .
 
-Material="InGaAs" {
-  #includeext "ParFileDir/sdevice_InGaAs.par"
+Material="InAs" {
+  #includeext "ParFileDir/sdevice_InAs.par"
 }
 
 Material = "InGaAs" {

@@ -2,7 +2,7 @@
 # Sentaurus Visual K-2015.06-SP2.
 # Tcl log file.
 #------------------------------------------
-# Date: Jan 13, 2018. 18:57:48.
+# Date: Jan 14, 2018. 16:30:17.
 # Version: 24.0.12 (1.12)
 # Mode: Interactive (GUI).
 # Hostname: en-ec-xing-01.coecis.cornell.edu.
@@ -24,14 +24,12 @@ create_curve -plot Plot_1 -dataset IV_Vds_0.4_Vbg_0.0_n3_des -axisX {topGate Out
 #-> Curve_1
 set_axis_prop -plot Plot_1 -axis y -type log
 #-> 0
+set_axis_prop -plot Plot_1 -axis y -type linear
+#-> 0
 create_curve -plot Plot_1 -dataset IV_Vds_0.4_Vbg_0.2_n3_des -axisX {topGate OuterVoltage} -axisY {drain TotalCurrent}
 #-> Curve_2
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0
 create_curve -plot Plot_1 -dataset IV_Vds_0.4_Vbg_0.4_n3_des -axisX {topGate OuterVoltage} -axisY {drain TotalCurrent}
 #-> Curve_3
-load_file /home/ml888/sentaurus_home/XNOR/n1_bnd.tdr
-create_plot -dataset n1_bnd
-select_plots Plot_n1_bnd
-#-> Plot_n1_bnd
-#-> Plot_n1_bnd
-#-> n1_bnd
 exit 0

@@ -2,7 +2,7 @@
 # Sentaurus Visual K-2015.06-SP2.
 # Tcl log file.
 #------------------------------------------
-# Date: Jan 13, 2018. 22:36:03.
+# Date: Jan 14, 2018. 17:06:27.
 # Version: 24.0.12 (1.12)
 # Mode: Interactive (GUI).
 # Hostname: en-ec-xing-01.coecis.cornell.edu.
@@ -20,11 +20,33 @@ load_file /home/ml888/sentaurus_home/XNOR/IV_Vds_0.4_Vbg_0.2_n3_des.plt
 #-> IV_Vds_0.4_Vbg_0.2_n3_des
 load_file /home/ml888/sentaurus_home/XNOR/IV_Vds_0.4_Vbg_0.4_n3_des.plt
 #-> IV_Vds_0.4_Vbg_0.4_n3_des
-create_curve -plot Plot_1 -dataset IV_Vds_0.4_Vbg_0.0_n3_des -axisX {topDrain OuterVoltage} -axisY {drain TotalCurrent}
-#-> Curve_1
 create_curve -plot Plot_1 -dataset IV_Vds_0.4_Vbg_0.0_n3_des -axisX {topGate OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset IV_Vds_0.4_Vbg_0.4_n3_des -axisX {topGate OuterVoltage} -axisY {drain TotalCurrent}
 #-> Curve_2
-load_file /home/ml888/sentaurus_home/XNOR/IV_Vds_0.4_Vbg_0.0_n3_des.plt
-#-> IV_Vds_0.4_Vbg_0.0_n3_des_2
-create_curve -plot Plot_1 -dataset IV_Vds_0.4_Vbg_0.0_n3_des_2 -axisX {topGate OuterVoltage} -axisY {drain TotalCurrent}
-#-> Curve_3
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0
+exit 0

@@ -1,10 +1,10 @@
 # Copyright (C) 1994-2011 Synopsys Inc.
-# swbtree vcurrent, Sun Feb 26 23:21:56 2017
+# swbtree vcurrent, Sun Jan 14 17:14:41 2018
 
 # --- simulation flow
 sde sde "" {}
 sdevice sdevice "" {}
-sdevice Vdd "-1.5" {0.2 -0.8 0.0 0.4 1 1 0.2}
+sdevice Vdd "-1.5" {0.2 -0.8 0.0 0.4 1}
 svisual svisual "" {}
 # --- variables
 # --- scenarios and parameter specs

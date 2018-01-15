@@ -13,6 +13,15 @@ File{
    Parameter= "@parameter@"        
 }
 
+Physics( Material="InGaAs"){
+   MoleFraction( xFraction= 0.2 Grading= 0)
+   ### for quantum confinement of InGaAs
+   * LayerThickness(Thickness=0.003)
+   * Multivalley(
+   *     MLDA
+   *     ThinLayer
+   * )
+}
 
 Physics {
    Recombination(
@@ -21,12 +30,17 @@ Physics {
      )
    )                           
    EffectiveIntrinsicDensity( NoBandGapNarrowing )
+
+   * Recombination(
+   *	SRH
+   *	Auger		
+   * )
+   * Fermi ### Use Fermi Distribution: Has huge impact on the current
+   * Thermionic
+   * hBarrierTunneling "NLM_source"
+   * eBarrierTunneling "NLM_drain"
 }
 
-
-Physics( Material="InGaAs"){
-   MoleFraction( xFraction= 0.2 Grading= 0)
-}
 
 
 Plot{
@@ -48,16 +62,35 @@ Plot{
 }
 
 Math{
+   RelErrControl
+   ErrRef(Electron)=1e5
+   ErrRef(Hole)=1e5
    Extrapolate
    Digits= 4
    Notdamped= 100
-   Iterations= 15
-   RelErrControl
-   ErrRef(Electron) = 1e7
-   ErrRef(Hole)     = 1e7
-   RelTermMinDensity= 1e4
-   RelTermMinDensityZero= 1e7     
+   Iterations= 3
+   NumberOfThreads=16
+   * RelTermMinDensity= 1e4
+   * RelTermMinDensityZero= 1e7     
 }
+
+* Math {
+*   	NonLocal "NLM_source" (
+*		Electrode="source"
+*		Digits= 4
+*		Length= 5e-9
+*		EnergyResolution= 1e-3
+**		Direction=(0 -1 0) 
+*	)
+*	NonLocal "NLM_drain" (
+*		Electrode="drain"
+*		Digits= 4
+*		Length= 5e-9
+*		EnergyResolution= 1e-3
+*		Direction=(0 1 0) 
+*	)
+* }
+
 
 Solve{
 *- Initial Solution:
@@ -69,58 +102,48 @@ Solve{
 #----------------------------------------------------------------------#
 
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 
- Minstep= 1e-5 MaxStep= 0.30 
+ Minstep= 1e-8 MaxStep= 0.015
  Goal{ Name="drain" Voltage = 0.4 }) 
  { Coupled{ Poisson Electron Hole } }
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 
- Minstep= 1e-5 MaxStep= 0.30 
+ Minstep= 1e-8 MaxStep= 0.015
  Goal{ Name="bottomGate" Voltage = 0.0 }) 
  { Coupled{ Poisson Electron Hole } }
 NewCurrentFile="IV_Vds_0.4_Vbg_0.0_"
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 
- Minstep= 1e-5 MaxStep= 0.015
+ Minstep= 1e-8 MaxStep= 0.015
  Goal{ Name="topGate"  Voltage= 0.4 }) 
  { Coupled{ Poisson Electron Hole } }
-Quasistationary( InitialStep= 5e-2 Increment= 1.25 
- Minstep= 1e-5 MaxStep= 0.40 
- Goal{ Name="topGate" Voltage = 0.0 }) 
- { Coupled{ Poisson Electron Hole } }
 
 
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 
- Minstep= 1e-5 MaxStep= 0.30 
+ Minstep= 1e-8 MaxStep= 0.015 
  Goal{ Name="drain" Voltage = 0.4 }) 
  { Coupled{ Poisson Electron Hole } }
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 
- Minstep= 1e-5 MaxStep= 0.30 
+ Minstep= 1e-8 MaxStep= 0.015
  Goal{ Name="bottomGate" Voltage = 0.4 }) 
  { Coupled{ Poisson Electron Hole } }
 NewCurrentFile="IV_Vds_0.4_Vbg_0.4_"
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 
- Minstep= 1e-5 MaxStep= 0.015
- Goal{ Name="topGate"  Voltage= 0.4 }) 
- { Coupled{ Poisson Electron Hole } }
-Quasistationary( InitialStep= 5e-2 Increment= 1.25 
- Minstep= 1e-5 MaxStep= 0.40 
- Goal{ Name="topGate" Voltage = 0.0 }) 
+ Minstep= 1e-8 MaxStep= 0.015
+ Goal{ Name="topGate"  Voltage= 0.0 }) 
  { Coupled{ Poisson Electron Hole } }
 
+
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 
- Minstep= 1e-5 MaxStep= 0.30 
+ Minstep= 1e-8 MaxStep= 0.015 
  Goal{ Name="drain" Voltage = 0.4 }) 
  { Coupled{ Poisson Electron Hole } }
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 
- Minstep= 1e-5 MaxStep= 0.30 
+ Minstep= 1e-8 MaxStep= 0.015 
  Goal{ Name="bottomGate" Voltage = 0.2 }) 
  { Coupled{ Poisson Electron Hole } }
 NewCurrentFile="IV_Vds_0.4_Vbg_0.2_"
 Quasistationary( InitialStep= 5e-2 Increment= 1.25 
- Minstep= 1e-5 MaxStep= 0.015
+ Minstep= 1e-8 MaxStep= 0.015
  Goal{ Name="topGate"  Voltage= 0.4 }) 
  { Coupled{ Poisson Electron Hole } }
-Quasistationary( InitialStep= 5e-2 Increment= 1.25 
- Minstep= 1e-5 MaxStep= 0.40 
- Goal{ Name="topGate" Voltage = 0.0 }) 
- { Coupled{ Poisson Electron Hole } }
+
 
 }
